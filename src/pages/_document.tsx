@@ -1,6 +1,9 @@
 import React from 'react';
-import Document, { DocumentInitialProps, DocumentContext } from 'next/document';
+import Document, {
+  DocumentInitialProps, DocumentContext, Html, NextScript, Main,
+} from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import Head from 'next/head';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -25,5 +28,22 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal();
     }
+  }
+
+  render(): JSX.Element {
+    return (
+      <Html lang="pt">
+        <Head>
+          <meta charSet="utf-8" />
+
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
   }
 }
