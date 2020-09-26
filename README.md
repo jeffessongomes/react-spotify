@@ -1,6 +1,6 @@
 <h3 align="center">
 
-Rocketseat - Login é um projeto **Open Source** desenvolvido a fim de melhorar minhas habilidades em ***ReactJS, TypeScript, NextJS e o Styled-components***.
+Spotify - Login é um projeto **Open Source** desenvolvido a fim de melhorar minhas habilidades em ***ReactJS, TypeScript, NextJS e o Styled-components***.
 
 </h3>
 
