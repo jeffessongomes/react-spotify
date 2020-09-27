@@ -2,8 +2,10 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { Container } from '../styles/pages/Home';
+
 const Home: React.FC = () => (
-  <div>
+  <Container>
     <Head>
       <title>Create Next App</title>
     </Head>
@@ -11,7 +13,7 @@ const Home: React.FC = () => (
     <main>
       <h2>Hello World</h2>
     </main>
-  </div>
+  </Container>
 );
 
 export default Home;
