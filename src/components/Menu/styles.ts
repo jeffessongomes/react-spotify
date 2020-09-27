@@ -6,6 +6,7 @@ export const Container = styled.nav`
   align-items: center;
 
   padding: 17px 380px;
+  background: ${(props) => props.theme.colors.primary};
 
   a{
     color: ${(props) => props.theme.colors.text};
@@ -14,7 +15,7 @@ export const Container = styled.nav`
     font-weight: bold;
 
     svg{
-      fill: #FFF;
+      fill: ${(props) => props.theme.colors.text};
       width: 120px;
     }
   }
@@ -31,6 +32,10 @@ export const Container = styled.nav`
 
         a{
           font-size: 1em;
+
+          &:hover{
+            color: ${(props) => props.theme.colors.textHover};
+          }
         }
       }
 
