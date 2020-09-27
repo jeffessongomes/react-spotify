@@ -4,15 +4,16 @@ import Head from 'next/head';
 
 import { Container } from '../styles/pages/Home';
 
+import Footer from '../components/Footer';
+import Menu from '../components/Menu';
+
 const Home: React.FC = () => (
   <Container>
     <Head>
-      <title>Create Next App</title>
+      <title>Escutar muda tudo - Spotify</title>
     </Head>
 
-    <main>
-      <h2>Hello World</h2>
-    </main>
+    <Menu />
   </Container>
 );
 
