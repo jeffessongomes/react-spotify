@@ -10,7 +10,7 @@ const Menu: React.FC = () => (
         <ul>
           <li>
             <a href="/">Premium</a>
-          </li>``
+          </li>
           <li>
             <a href="/">Ajuda</a>
           </li>

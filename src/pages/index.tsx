@@ -18,6 +18,7 @@ const Home: React.FC = () => (
       <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
       <a href="/">OBTENHA O SPOTIFY FREE</a>
     </Content>
+    <Footer />
   </>
 );
 

@@ -7,6 +7,9 @@ export const Content = styled.div`
   flex-direction: column;
 
   height: 90vh;
+  background: url('https://www.scdn.co/i/home/lieVariants/bursts.svg');
+  background-size: 165%;
+  background-position: 43% 0%;
 
   h1{
     font-size: 9em;
@@ -20,16 +23,19 @@ export const Content = styled.div`
   }
 
   p{
-    font-size: 1em;
+    font-size: 1.2em;
     color: ${props => props.theme.colors.textHover};
     margin-top: 20px;
   }
 
   a{
     background: ${props => props.theme.colors.textHover};
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 1em;
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+    letter-spacing: 2px;
 
     color: ${props => props.theme.colors.background};
     text-decoration: none;
