@@ -5,6 +5,7 @@ const theme = {
     textHover: '#1ED760',
     primary: '#000',
     secondary: '#d9dadc',
+    subtitle: '#919496',
   },
 };
 
