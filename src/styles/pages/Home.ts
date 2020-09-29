@@ -6,7 +6,7 @@ export const Content = styled.div`
   align-items: center;
   flex-direction: column;
 
-  height: 90vh;
+  height: 92vh;
   background: url('https://www.scdn.co/i/home/lieVariants/bursts.svg');
   background-size: 165%;
   background-position: 43% 0%;
@@ -40,6 +40,12 @@ export const Content = styled.div`
     color: ${props => props.theme.colors.background};
     text-decoration: none;
     font-weight: bold;
+    transition: .5s;
+
+    &:hover{
+      background: #FFF;
+    }
+
   }
 
 `;
