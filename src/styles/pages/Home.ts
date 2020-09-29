@@ -16,7 +16,7 @@ export const Content = styled.div`
     font-family: Roboto, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 0 600px;
+    padding: 0 550px;
     line-height: 170px;
 
     color: ${(props) => props.theme.colors.textHover};
