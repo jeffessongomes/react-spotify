@@ -18,6 +18,7 @@ O projeto tem como propósito fazer uma copia da página inicial do spotify util
 #### **Website** ([React][react] + [TypeScript][typescript])
 
   - **[NextJS][NextJS]**
+  - **[Styled-Components](https://styled-components.com)**
 
   \* Veja o arquivo <kbd>[package.json](./sources/website/package.json)</kbd>
 
