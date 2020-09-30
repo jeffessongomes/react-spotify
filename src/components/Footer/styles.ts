@@ -41,9 +41,7 @@ export const ExterLinks = styled.div`
       color: ${props => props.theme.colors.text};
       text-decoration: none;
 
-      & + a{
-        margin-top: 20px;
-      }
+        padding-bottom: 20px;
 
       &:hover{
         color: ${props => props.theme.colors.textHover};
@@ -53,5 +51,34 @@ export const ExterLinks = styled.div`
 `;
 
 export const SocialLinks = styled.div`
+  display: flex;
+  justify-content: center;
 
+  a{
+    color: #FFF;
+    border-radius: 50px;
+    width: 54px;
+    height: 54px;
+    background: #222326;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & + a{
+      margin-left: 10px;
+    }
+
+    svg{
+      fill: #FFF;
+      font-size: 30px;
+    }
+
+    &:hover{
+      svg{
+        fill: ${props => props.theme.colors.textHover};
+      }
+    }
+
+  }
 `

@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import {CgFacebook} from 'react-icons/cg';
+
 import { Container, SocialLinks, ExterLinks } from './styles';
 
 const Footer: React.FC = () => (
@@ -29,9 +33,9 @@ const Footer: React.FC = () => (
         </div>
       </ExterLinks>
       <SocialLinks>
-        <a href="/">Instagram</a>
-        <a href="/">Twitter</a>
-        <a href="/">Facebook</a>
+        <a href="/"><AiOutlineInstagram /></a>
+        <a href="/"><AiOutlineTwitter /></a>
+        <a href="/"><CgFacebook /></a>
       </SocialLinks>
     </Container>
 );
