@@ -4,9 +4,9 @@ Spotify - Login é um projeto **Open Source** desenvolvido a fim de melhorar min
 
 </h3>
 
-<h4 align="center">
-  Você pode ver a demonstração da aplicação clicando <kbd>[aqui]()</kbd>.
-</h4>
+<p align="center">
+  <img alt="Rocketseat" src="./.github/assets/react-spotify.png">
+</p>
 
 ## **:rocket: OBJETIVO**
 
