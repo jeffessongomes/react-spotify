@@ -6,7 +6,7 @@ export const Content = styled.div`
   align-items: center;
   flex-direction: column;
 
-  height: 92vh;
+  height: 100vh;
   background: url('https://www.scdn.co/i/home/lieVariants/bursts.svg');
   background-size: 165%;
   background-position: 43% 0%;
