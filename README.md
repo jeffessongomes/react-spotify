@@ -64,7 +64,7 @@ Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<h2 align="center">:checkered_flag: Feito por <a href="https://www.linkedin.com/in/jeffesson-gomes-2b36911aa/">Jeffesson Gomes</a></h2>
+<h2 align="center">:checkered_flag: Feito por <a href="https://www.linkedin.com/in/jeffesson-gomes-de-almeida-2b36911aa/">Jeffesson Gomes</a></h2>
 
 
 <!-- Techs -->
